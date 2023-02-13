@@ -35,7 +35,9 @@ body{
     margin: 0;
     padding: 0;
 }
-
+#menu{
+    visibility: hidden;
+}
 .header-section > .right-section{
     display: flex;
     flex-direction: row;
@@ -457,3 +459,44 @@ body{
 /* End Footer */
 
 /* End CONTENT AREA */
+
+@media only screen and (max-width: 600px){
+    .header-section{
+        height: 5rem;
+        padding: 0;
+    }
+    .header-section > .left-section > img{
+        height: 8rem;
+        margin: 0;
+        padding: 0;
+        align-self: flex-start;
+    }
+    .header-section > .right-section{
+        visibility: hidden;
+    }
+    #menu{
+        visibility: visible;
+        height: 3rem;
+        margin-left: 11rem;
+    }
+    .section-1 > .sub-section-1{
+        margin: 0;
+        padding: 0;
+    }
+    .content-area {
+        width: 100%;
+    }
+    .content-area > .section-1 > .sub-section-1 > span:first-child{
+        margin-top: 12rem;
+        font-size: 4rem;
+        width: 25rem;
+        text-align: center;
+    }
+    .content-area > .section-1 > .sub-section-1 > span:last-child{
+        width: 20rem;
+        text-align: justify;
+        text-indent: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 6rem;
+    }
+}
