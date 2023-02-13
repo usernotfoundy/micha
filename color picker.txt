@@ -1,0 +1,28 @@
+Beige Main
+#A18167
+#D1B7A1
+#DBC2AD
+#E9D3C0
+#EFDCCC
+#F2E5D9
+
+
+#6c61d9
+#f9a656
+#cf927d
+#e57d56
+#4faaa3
+#4c1f3e
+
+#e2d3cd
+#e3dad5
+#e6cdb5
+#f7d885
+#d0c886
+
+<span>About You And Me</span>
+                    <span>Biggest Happiness: Being With You</span>
+                    <span>Biggest Sadness: Your Distance</span>
+                    <span>Biggest Hope: To See You Soon</span>
+                    <span>Biggest Achievement: To Love You</span>
+                    <span>Biggest Prayer: To Be With You Forever</span>

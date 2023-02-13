@@ -1,0 +1,459 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f2e5d9;
+    width: 100%;
+}
+
+.header-section{
+    width: auto;
+    height: 7rem;
+    background-color: #a18167;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    padding-left: 5rem;
+    position: sticky;
+    top: 0px;
+}
+
+.header-section > .left-section{
+    padding: 0;
+    margin: 0;
+}
+
+.header-section > .left-section > img{
+    height: 10rem;
+    margin: 0;
+    padding: 0;
+}
+
+.header-section > .right-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-section > .right-section > nav > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-section > .right-section > nav > ul > li{
+    list-style-type: none; 
+    margin-right: 2rem;
+}
+
+.header-section > .right-section > nav > ul > li > a{
+    text-decoration: none;
+    color: #EFDCCC;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.header-section > .right-section > nav > ul > li > a:hover{
+    color: #DBC2AD;
+}
+
+.header-section > .right-section > .profile{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 2rem 0rem 7rem;
+}
+
+.header-section > .right-section > .profile > img{
+    height: 3.5rem;
+    border-radius: 50%;
+}
+
+.header-section > .right-section > .profile > .profile-sub-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+
+.header-section > .right-section > .profile > .profile-sub-section > span{
+    color: #E9D3C0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.1rem;
+}
+
+.header-section > .right-section > .profile > .profile-sub-section > span:first-child{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.header-section > .right-section > .profile > select{
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem;
+    background-color: #a18167;
+    border: none;
+    font-size: 1.2rem;
+    color: #E9D3C0;
+}
+
+
+/* Start CONTENT AREA */
+.content-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+/* Start Section-1 */
+.content-area > .section-1{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.sub-section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20rem;
+    padding-bottom: 10rem;
+
+}
+.content-area > .section-1 > .sub-section-1 > span{
+    display: flex;
+    flex-direction: row;
+    color: #a18167;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.content-area > .section-1 > .sub-section-1 > span:first-child{
+    font-size: 5rem;
+    font-weight: 550;
+}
+
+.content-area > .section-1 > .sub-section-1 > span:last-child{
+    font-size: 1.5rem;
+    width: 45rem;
+    text-align: center;
+    align-self: center;
+    color: #D1B7A1;
+}
+
+.content-area > .section-1 > .sub-section-2{
+    display: flex;
+    flex-direction: column;
+    margin: 10rem;
+    background-color: #EFDCCC;
+    padding: 20rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+} 
+
+.content-area > .section-1 > .sub-section-2 > span{
+    color: #a18167;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 550;
+    margin-bottom: 3rem;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content{
+    display: flex;
+    flex-direction: row;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .box-1{
+    background-color: #c0b4af;
+    width: 30rem;
+    height: 25rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .box-1 > span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F2E5D9;
+    font-size: 1.3rem;
+    font-weight: 550;
+    margin-top: 20rem;
+    margin-left: 2rem;
+    letter-spacing: 0.1rem;
+    text-align: left;
+
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .box-1 > img{
+    height: 10rem;
+    margin: 1.5rem;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .group-box-1{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .group-box-1 > .sub-group-box{
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .group-box-1 > .sub-group-box > .box-2{
+    background-color: #b6a196;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .group-box-1 > .sub-group-box > .box-2 > span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F2E5D9;
+    font-size: 1.3rem;
+    margin-top: 8rem;
+    margin-left: 1rem;
+    font-weight: 550;
+    text-align: left;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .group-box-1 > .sub-group-box > .box-2 > img{
+    height: 4rem;
+    margin: 0.5rem;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .group-box-1 > .sub-group-box > .box-3{
+    background-color: #e0c1a3;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .group-box-1 > .sub-group-box > .box-3 > span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F2E5D9;
+    font-size: 1.3rem;
+    margin-top: 8rem;
+    margin-left: 1rem;
+    font-weight: 550;
+    text-align: left;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .group-box-1 > .sub-group-box > .box-3 > img{
+    height: 4rem;
+    margin: 0.5rem;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .group-box-1 > .box-4{
+    cursor: pointer;
+    background-color: #c9b06d;
+    width: 25rem;
+    height: 12rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .group-box-1 > .box-4 > span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F2E5D9;
+    font-size: 1.3rem;
+    margin-top: 9rem;
+    margin-left: 1rem;
+    font-weight: 550;
+    text-align: left;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .group-box-1 > .box-4 > img{
+    height: 6rem;
+    margin-top: 1rem;
+    margin-left: 7.5rem;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .group-box-2{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .group-box-2 > .box-5{
+    cursor: pointer;
+    background-color: #d0c886;
+    width: 30rem;
+    height: 12rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .group-box-2 > .box-5 > span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F2E5D9;
+    font-size: 1.3rem;
+    margin-top: 9rem;
+    margin-left: 1.5rem;
+    font-weight: 550;
+    text-align: left;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .group-box-2 > .box-5 > img{
+    height: 6rem;
+    margin-top: 1rem;
+    margin-left: 12rem;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .group-box-2 > .box-6{
+    cursor: pointer;
+    background-color: #A18167;
+    width: 30rem;
+    height: 12rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .group-box-2 > .box-6 > span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F2E5D9;
+    font-size: 1.3rem;
+    margin-top: 8rem;
+    margin-left: 1.5rem;
+    font-weight: 550;
+    text-align: left;
+}
+
+.content-area > .section-1 > .sub-section-2 > .content > .group-box-2 > .box-6 > img{
+    height: 6rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+/* End Section-1 */
+
+/* Start Section-2 */
+.content-area > .section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-area > .section-2 > .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-area > .section-2 > .content > img{
+    height: 35rem;
+    border-radius: 50%;
+}
+
+.content-area > .section-2 > .content > .message{
+    display: flex;
+    flex-direction: column;
+    color: #A18167;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10rem;
+}
+
+.content-area > .section-2 > .content > .message > span:first-child{
+    color: #a18167;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 550;
+    margin-bottom: 3rem;
+}
+
+.content-area > .section-2 > .content > .message > span:nth-child(2){
+    color: #D1B7A1;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.content-area > .section-2 > .content > .message > p{
+    margin: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.content-area > .section-2 > .content-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+}
+
+.content-area > .section-2 > .content-2 > span{
+    padding: 2rem;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    background-color: #b6a196;
+    color: #F2E5D9;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0.5rem;
+}
+/* End Section-2 */
+
+/* Start Footer */
+.content-area > .footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    background-color: #EFDCCC;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 10rem;
+}
+.content-area > .footer > span:first-child{
+    color: #A18167;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.content-area > .footer > span{
+    padding-top: 1rem;
+    color: #D1B7A1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+/* End Footer */
+
+/* End CONTENT AREA */
