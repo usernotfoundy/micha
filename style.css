@@ -478,6 +478,10 @@ body{
     .header-section > .right-section{
         visibility: hidden;
     }
+    .section-1{
+        justify-content: center;
+        align-items: center;
+    }
     .section-1 > .sub-section-1{
         margin: 0;
         padding: 0;
@@ -498,17 +502,18 @@ body{
         margin-top: 2rem;
         margin-bottom: 6rem;
     }
+    .content-area > .section-1 > .sub-section-2{
+        align-items: center;
+        justify-content: center;
+    }
     .content-area > .section-1 > .sub-section-2 > span{
-        font-size:2rem;
+        font-size: 2rem;
     }
-    .content-area > .section-1 > .section-2 > .content{
-        flex-direction: row;
+    .content-area > .section-1 > .sub-section-2 > .content{
+        display: flex;
+        justify-content: center;
         flex-wrap: wrap;
-    }
-    .box-1{
-        width: 10rem;
-    }
-    .box-2{
-        width: 15rem;
+        align-items: center;
+        width: 30%;
     }
 }
