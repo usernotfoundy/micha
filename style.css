@@ -458,7 +458,7 @@ body{
 
 /* End CONTENT AREA */
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 500px){
     .header-section{
         align-items: center;
         height: 5rem;
