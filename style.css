@@ -311,6 +311,8 @@ body{
         align-items: center;
         height: 5rem;
         padding: 0;
+        position: fixed;
+        top: 0px;
     }
     .header > img{
         height: 8rem;
@@ -327,7 +329,7 @@ body{
         align-items: center;
     }
     .content-area > .section-1{
-        margin-top: 12rem;
+        margin-top: 20rem;
     }
     .content-area > .section-1 > span:first-child{
         font-size: 3.5rem;
