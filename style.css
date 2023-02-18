@@ -311,6 +311,8 @@ body{
         align-items: center;
         height: 5rem;
         padding: 0;
+        position: sticky;
+        top: 0px;
     }
     .header > img{
         height: 8rem;
@@ -405,6 +407,7 @@ body{
     }
     .content-area > .section-2 > .content-section > .group-2 > .box-5 > span{
         font-size: 1rem;
+        margin-top: 8.5rem;
     }
     .content-area > .section-2 > .content-section > .group-2 > .box-5 > img{
         height: 5rem;
