@@ -311,8 +311,6 @@ body{
         align-items: center;
         height: 5rem;
         padding: 0;
-        position: sticky;
-        top: 0px;
     }
     .header > img{
         height: 8rem;
